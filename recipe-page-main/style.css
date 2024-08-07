@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital@0;1&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,600;1,600&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,700;1,700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,700;1,700&family=Young+Serif&display=swap');
+
+
+*{
+   
+   padding:0;
+   margin:0;
+   box-sizing: border-box;
+}
+:root{
+  background-color:   hsl(30, 54%, 90%);
+  background-color:  hsl(30, 18%, 87%);
+  background-color:  hsl(30, 10%, 34%);
+  background-color: hsl(24, 5%, 18%);
+}
+body{
+   background-color:hsl(30, 54%, 90%) ; 
+display:grid;
+justify-content: center;
+align-items: center;
+width:100%;
+height:auto;
+}
+h1{
+   color:hsl(24, 5%, 18%);
+}
+
+.all{
+   background-color: white;
+width:650px;
+max-height: auto;
+padding: 30px;
+margin:80px;
+border-radius: 10px;
+}
+h2,.td1{
+   color: hsl(14, 45%, 36%) ;
+font-weight: bold;
+
+}
+.img1 img{
+   border-radius: 7px;
+}
+ 
+.head{
+margin-top: 15px;
+}
+.head p{
+   margin-top: 5px;;
+   line-height: 20px;
+}
+.ul1{
+   background-color:hsl(330, 100%, 98%);
+   margin-top: 15px;
+   padding:15px;
+   list-style-position: inside;
+   line-height: 25px;
+   border-radius: 10px;;
+}
+.ul1 li{
+   margin-top: 5px;
+}
+span{
+   font-weight: bolder;
+   color:hsl(30, 10%, 34%);
+   
+}
+li::marker{
+   color:hsl(14, 45%, 36%);
+   font-weight: bold;
+}
+.ul2{
+   border-bottom:2px solid hsl(30, 18%, 87%);;
+   padding-bottom: 10px;
+   margin-top: 15px;
+   line-height: 20px;
+   border-radius: 10px;
+ 
+}
+.ul2 li{
+   padding:5px;
+   list-style-position: inside;
+   margin-top:5px;
+   
+}
+
+.instruc{
+   border-bottom:2px solid hsl(30, 18%, 87%);
+border-radius: 10px;
+margin-top: 20px;
+padding-bottom: 10px;
+}
+.instruc li{
+   line-height: 25px;
+   list-style-position: inside;
+   margin-top: 5px;;
+
+}
+.nutri{
+   margin-top: 20px;
+   
+}
+
+.nutri p{
+   margin-top: 10px;;
+}
+
+.nutri table {
+   line-height: 35px;
+ width:100%;
+ margin-top: 10px;;
+ 
+   
+}
+
+ table tr  td {
+   border-bottom:1px solid hsl(30, 18%, 87%);
+   border-radius: 3px;;
+ }
+  
+
+@media (max-width:1044px){
+   .all{
+      width:500px;
+      height:auto;
+   }
+}
+
+@media (max-width:530px){
+   .all{
+      width:390px;
+      height:auto;
+      
+   }
+}
+@media(max-width:375px){
+   .all{
+      width:350px;
+      height:auto;
+      margin: 0px;
+       overflow-x: hidden;
+border-radius: 0px;
+padding: 0px;
+   }
+   body{
+  margin:0;
+ padding: 0;    
+}
+.img1  img{
+   border-radius: 0px;
+   width:100%;
+   
+}
+.all2{
+   padding:30px;
+}
+}
