@@ -1,0 +1,216 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: absolute;
+    left:30px;
+    right:20px;
+}
+.head1{
+    display: flex;
+    padding:20px;
+    margin:20px;
+    width:100%;
+}
+.logo{
+    color:blue
+}
+.logo span{
+    color:black;
+    font-weight: bold;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.nav-list ul {
+    list-style-type: none;
+   display:flex;
+   margin-left: 50px;;
+   width:900px;
+}
+.nav-list ul li {
+margin-left:80px;
+}
+.nav-list ul li>a{
+color:black;
+text-decoration: none;
+
+
+}
+
+.nav-list ul li:hover{
+    border-bottom: 3px solid blue;
+    border-top: 3px solid blue;
+    
+}
+.btn{
+    margin-left: 50px;
+}
+.btn button{
+    margin-left: 15px;
+}
+.btn >button{
+    border: 1px solid blue;
+    border-radius: 5px;;
+    padding:5px;
+    width:70px;
+    height:30px;
+}
+
+.btn>button:hover:not(.btn2){
+    background-color: rgba(0, 0, 255, 0.836);
+    color:#fff;
+    
+}
+.btn2{
+    background-color: blue;
+    color:white;
+}
+/* nav bar ends*/
+/* header page starts*/
+.page1{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+.page-content{
+    margin-top: 30px;
+    width:100%;
+    text-transform: capitalize;
+}
+.page-content h1{
+    font-weight: normal;
+   margin-top: 5px;
+   
+   
+}
+.page-content h1>span{
+    font-weight: bolder;
+    text-transform: lowercase;
+}
+.page-content p{
+    margin-top:20px;
+}
+
+.page-btn{
+    margin-top: 20px;
+    
+}
+.page-btn>button{
+    margin: 10px;
+}
+.p-btn1{
+    border: 1px solid blue;
+    border-radius: 5px;
+    color:white;
+    width:30%;
+    padding:10px;
+    background-color: blue;
+
+}
+ 
+.p-btn2{
+    border: 1px solid blue;
+    border-radius: 5px;
+    color:blue;
+    width:30%;
+    padding:10px;
+}
+.page-btn>button:hover:not(.p-btn1){
+    background-color: rgba(0, 0, 255, 0.849);
+    color:white;
+}
+/* header image*/
+.head2{
+    margin-left: 15px;
+}
+
+/*section page starts*/
+
+.section1{
+    margin-top: 50px;
+}
+.sec-head{
+    text-align:center;
+    text-transform: capitalize;
+    
+}
+.sec-head i{
+    margin:10px;
+    color:blue;
+    font-size: 30px;
+}
+.sec1{
+    display:flex;
+    margin:50px;
+    text-align: center;
+}
+ .sec1 i{
+    color:blue;
+    font-size: 30px;
+    margin-top: 10px;
+ }
+.sec1 h4 ,p{
+    margin:20px 0px;
+}
+/* section 2 page style starts*/
+.section2{
+    text-transform: capitalize;
+}
+.sec-head2{
+    text-align:center;
+    margin-top: 10px;
+    
+}
+.sec-head2 i{
+    font-size: 30px;
+    color:blue;
+    margin-top: 10px;
+}
+.sec-head2 p{
+opacity: 0.5;
+}
+ .section2>.sec2-slider{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.sec2-s1{
+    background-color: #fff;
+    border:2px solid gray;
+    margin:15px;
+    padding:15px;
+    font-weight: bold;
+    display:flex;
+width:400px;
+    
+}
+.sec2-s1 h1{
+    color:blue;
+}
+.sec2-s1  h1 span{
+
+    font-size: 16px;
+    color:black;
+    
+}
+
+.sec2-s1 i{
+display:grid;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+color:blue;
+
+}
+
+.dots .radio1{
+cursor: pointer;
+
+}
+
